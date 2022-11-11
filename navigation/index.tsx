@@ -89,7 +89,12 @@ function BottomTabNavigator() {
         component={ProfileScreen}
         options={{
           title: 'Profile',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="account" color={color} size={30} style={{ marginBottom: -3 }} />,
+          tabBarIcon: ({ color }) =>
+            <MaterialCommunityIcons
+              name="account"
+              color={color}
+              size={30}
+              style={{ marginBottom: -3 }} />,
         }}
       />
     </BottomTab.Navigator>
