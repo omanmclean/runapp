@@ -24,5 +24,6 @@ export const BaseStyles = StyleSheet.create({
         position: 'absolute',
         right: 20,
         top: 20,
+        fill: 'white',
     }
 });
